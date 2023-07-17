@@ -169,6 +169,20 @@
   transform: scale(1.05);
 }
 
+.play {
+  width: 1440px;
+  height: 800px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.header {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 584px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
